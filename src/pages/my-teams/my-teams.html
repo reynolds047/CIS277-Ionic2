@@ -6,16 +6,25 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>MyTeams</ion-title>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Elite Schedule</ion-title>
   </ion-navbar>
+
+  <ion-toolbar color="secondary">
+    <ion-title>MyTeams</ion-title>
+  </ion-toolbar>
 
 </ion-header>
 
 
-<ion-content padding>
-  <p>Hello</p>
+<ion-content padding >
+  
+ 
 
-  <button (click)="goToDetail()">Go to Details </button>
+  <button (click)="goToTournaments()">Find a Tournament </button>
+
 
 </ion-content>
